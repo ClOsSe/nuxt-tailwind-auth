@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: 'vazir';
+  src: url('/fonts/Vazir.woff') format('woff');
+}
+@font-face {
+  font-family: 'vazir-thin';
+  src: url('/fonts/Vazir-Thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'vazir-light';
+  src: url('/fonts/Vazir-Light.woff') format('woff');
+}
+
+
+.f-f-vazir{
+  font-family: vazir;
+}
+.f-f-vazir-thin{
+  font-family: vazir-thin;
+}
+.f-f-vazir-light{
+  font-family: vazir-light;
+}
+.text-white{
+  color: aliceblue;
+}
