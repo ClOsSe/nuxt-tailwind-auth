@@ -1,6 +1,6 @@
 // composables/useApi.ts
 export const useApi = () => {
-  const baseUrl = '/' // todo : .env
+  const baseUrl = 'http://localhost:4000/' // todo : .env
 
   const request = async (endpoint: string, options: any = {}) => {
     try {
